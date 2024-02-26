@@ -1,0 +1,238 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Tags: flexible-header,custom-colors,custom-menu,custom-logo,editor-style,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 1.0.1.1667282096
+Updated: 2022-11-01 05:54:56
+
+*/
+
+.container {
+    margin-top: 0;
+    margin-top: 55px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-bottom: 65px;
+    margin-left: auto;
+    background-color: #f4f4f4;
+    width: 900px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    padding: 45px;
+}
+   
+#pmpro_form {
+    max-width: 100%;
+    width: 100%;
+}
+.pmpro_level_description_text {
+    font-size: 120%;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+#pmpro_form .pmpro_checkout h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#pmpro_form #pmpro_pricing_fields.pmpro_checkout h3, #pmpro_form #pmpro_checkout_box-term-conditions.pmpro_checkout h3, #pmpro_form .pmpro_level_name_text, #pmpro_form .pmpro_level_cost_text, #pmpro_account_loggedin {
+    display: none;
+}
+form.pmpro_form input[type=text].input, form.pmpro_form input[type=password].input, .pmpro_login_wrap form#loginform input[type=text].input, .pmpro_login_wrap form#loginform input[type=password].input {
+    max-width: 100%;
+    width: 100%;
+}
+.plan_kickoff .pmpro_checkout hr {
+    display: none;
+}
+.pmpro_checkout-fields {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+}
+.pmpro_checkout-field {
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 50%;
+}
+#pmpro_form .pmpro_checkout-field label {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.pmpro_checkout-field textarea {
+    height: 100px;
+    max-width: 100% !important;
+    width: 100%;
+    resize: none;
+}
+.pmpro_submit hr {
+    display: none;
+}
+#pmpro_btn-submit {
+    color: #fff;
+    background-color: #ff9100;
+    border-color: #ff9100;
+}
+#pmpro_btn-submit:hover, #pmpro_btn-submit:focus {
+    color: #fff;
+    background-color: #003893;
+    border-color: #003893;
+}
+.pmpro_checkout-field.pmpro_checkout-field-checkbox {
+    display: flex;
+    align-items: flex-start;
+}
+.pmpro_checkout-field .pmpro_asterisk {
+    display: none;
+}
+.pmpro_checkout-field.pmpro_checkout-field-checkbox .pmprorh_checkbox_label {
+    margin-left: 8px;
+}
+.eael-pricing-item {
+    padding-top: 0 !important;
+}
+.eael-pricing-icon {
+    display: none !important;
+}
+.eael-pricing.style-2 .eael-pricing-item .eael-pricing-tag:after {
+    display: none;
+}
+.eael-pricing-tag + .body {
+    display: none !important;
+}
+.contact_us_wrapper .page-content .form_outer {
+    margin-top: 0;
+    margin-top: 55px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-bottom: 65px;
+    margin-left: auto;
+    
+    width: 900px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    padding: 45px;
+}
+.field-label {
+    font-family: "Nunito Sans", Sans-serif;
+}
+input.field-control {
+    font-size: 15px;
+    font-family: "Nunito Sans", Sans-serif;
+    height: 51px;
+}
+.contact_us_wrapper .col-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.field-group.radio-box {
+    margin-bottom: 9px;
+}
+.field-group.radio-box  .field-label {
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+button.btn.btn-primary.btn-submit {
+    border: none;
+    font-weight: 700;
+    margin-top: 24px;
+    font-family: "Nunito Sans", Sans-serif;
+    color: #fff;
+    background-color: #ff9100;
+    letter-spacing: 0.4px;
+    padding: 15px 40px;
+}
+button.btn.btn-primary.btn-submit:hover {
+    background-color: #ff9100;
+}
+.page-header .entry-title {
+    display: block;
+    font-weight: 700;
+    font-family: "Nunito Sans", Sans-serif;
+}
+
+/****************** 01-12-2022 Starts *************************/
+.page-header .entry-title{ margin:0; max-width: 100%;font-weight:600;color:#003893;margin-top: 30px;}
+.page-content .form_outer{margin-top:20px !important;}
+.whitepaper_form{ padding-bottom:40px 0;}
+.form-row{ display:flex; flex-wrap:wrap; margin-left:-15px; margin-right:-15px;}
+.form-col{ padding-left:15px; padding-right:15px;}
+.col-6{ flex:0 0 50%; max-width:50%; }
+.col-4{ flex:0 0 33.33%; max-width:33.33%; }   
+.field-label{ margin-bottom:8px; font-weight:700;}
+.field-group{ margin-bottom:20px;}
+textarea.field-control{ height:100px; resize:none;}
+/****************** 01-12-2022 Ends *************************/
+
+
+@media screen and (max-width: 992px) {
+.contact_us_wrapper .page-content .form_outer {
+    margin-top: 35px;
+    width: 100%;
+    padding: 26px;
+}
+.contact_us_wrapper .page-content {
+    padding: 15px;
+}
+}
+@media screen and (max-width: 767px) {
+.hfe-nav-menu__layout-horizontal li.menu-item, .hfe-nav-menu__layout-horizontal > li.menu-item {
+    overflow: hidden;
+}
+.pmpro_checkout-field {
+    flex: 0 0 100%;
+}
+body .pricing_footer {
+    position: static !important;
+}
+.contact_us_wrapper .page-content {
+    padding: 15px;
+}
+.contact_us_wrapper .page-content .form_outer {
+    margin-top: 35px;
+    width: 100%;
+    padding: 26px;
+}
+.contact_us_wrapper .form-row {
+    flex-direction: column;
+}
+.contact_us_wrapper  .col-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.page-header .entry-title {
+    font-size: 25px;
+}
+}
+
+
+/* CSS Style 2023 ########### */
+.filter_white{filter: brightness(0) invert(1);}
+.text-accent{color:#FF9100;}
+.text-white h1,.text-white h2,.text-white h3,.text-white h4,.text-white h5,.text-white h6{color:#fff;}
+.text-white a, .text-white a:hover{text-decoration:underline; color:#fff;}
+#application_page > .container-new{ max-width:100% !important; margin:0 !important;}
+.tabs_form .elementor-toggle .elementor-toggle-item:nth-child(1) .elementor-tab-content:not(.elementor-active){ display:block; }
+.tabs_form .elementor-toggle .elementor-toggle-item:nth-child(1) .elementor-tab-title:not(.elementor-active) .elementor-toggle-icon,
+.tabs_form .elementor-toggle .elementor-toggle-item:nth-child(1) .elementor-tab-title:not(.elementor-active) a{ color:#FF9100; }
+.tabs_form .elementor-toggle .elementor-toggle-item:nth-child(1) .elementor-tab-title:not(.elementor-active) .elementor-toggle-icon .fa-caret-right:before {content: "\f0d8"; color:#FF9100; }
+.quest_list li span{ color:#FF9100;}
+.strategy_quest #one,.strategy_quest #two, .strategy_quest #three, .strategy_quest #four, .strategy_quest #five, .strategy_quest #six, .strategy_quest #seven, .strategy_quest #eight, .strategy_quest #nine{ border-bottom: 5px double #fff;
+    padding-bottom: 40px;}
+
+.light_form .wpforms-field-label{color:#FF9100;}
+.light_form .wpforms-field-label-inline{ color:#fff;}
+.light_form div.wpforms-container-full .wpforms-form .wpforms-submit-container  .wpforms-submit{ border: none; font-weight: 700; margin-top: 24px; font-family: "Nunito Sans", Sans-serif;
+	color: #fff; background-color: #ff9100; letter-spacing: 0.4px; padding: 15px 40px;}
+.light_form div.wpforms-container-full .wpforms-form .wpforms-submit-container .wpforms-submit:hover {  background-color: #ff9100; }
+.hr_white hr{ background-color:#fff;}

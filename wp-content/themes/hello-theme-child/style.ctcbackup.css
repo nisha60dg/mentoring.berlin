@@ -1,0 +1,95 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+#pmpro_form { max-width: 100%; width: 100%;}
+.pmpro_level_description_text{width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 120%;}
+#pmpro_form .pmpro_checkout h3   {font-size: 1.5rem; font-weight:700;}
+#pmpro_form #pmpro_pricing_fields.pmpro_checkout h3,
+#pmpro_form #pmpro_checkout_box-term-conditions.pmpro_checkout h3,
+#pmpro_form .pmpro_level_name_text,
+#pmpro_form .pmpro_level_cost_text,
+#pmpro_account_loggedin{
+    display:none;
+}
+form.pmpro_form input[type=text].input, form.pmpro_form input[type=password].input, .pmpro_login_wrap form#loginform input[type=text].input, .pmpro_login_wrap form#loginform input[type=password].input{
+    width:100%; max-width: 100%;
+}
+.plan_kickoff .pmpro_checkout hr{ display:none;}
+.pmpro_checkout-fields{
+    display:flex; flex-wrap:wrap;
+    margin-left: -15px; margin-right: -15px;
+}
+.pmpro_checkout-field{
+ flex:0 0 50%;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+#pmpro_form .pmpro_checkout-field label{
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+.pmpro_checkout-field textarea{
+    resize:none; height:100px; width:100%; max-width:100% !important;
+}
+.pmpro_submit hr{
+    display:none;
+}
+#pmpro_btn-submit{
+    background: #FF9100;
+    color: #fff;
+    border-color: #FF9100;
+}
+#pmpro_btn-submit:hover,#pmpro_btn-submit:focus{
+    background:#003893;
+    color: #fff;
+    border-color: #003893;
+}
+.pmpro_checkout-field.pmpro_checkout-field-checkbox{
+    display: flex;
+    align-items: flex-start;
+}
+.pmpro_checkout-field .pmpro_asterisk{
+    display:none;
+}
+.pmpro_checkout-field.pmpro_checkout-field-checkbox .pmprorh_checkbox_label{ margin-left: 8px;}
+.eael-pricing-item { padding-top: 0 !important;}
+.eael-pricing-icon{ display: none !important;}
+.eael-pricing.style-2 .eael-pricing-item .eael-pricing-tag:after{ display:none;}
+.eael-pricing-tag + .body{ display:none !important;}
+.contact_us_wrapper .page-content .form_outer {margin: 0 auto; width: 900px;  background: #f4f4f4; padding: 45px;margin-top: 55px;margin-bottom: 65px; border-radius: 10px;}
+.field-label {font-family: "Nunito Sans", Sans-serif;}
+input.field-control{font-size: 15px; font-family: "Nunito Sans", Sans-serif;height: 51px;}
+.contact_us_wrapper .col-12	{flex: 0 0 100%;max-width: 100%;}
+.field-group.radio-box {margin-bottom: 9px;}
+.field-group.radio-box  .field-label{margin-bottom: 0px;font-size: 17px;font-weight: normal;}
+button.btn.btn-primary.btn-submit { background: #003893; border: none; color: #fff;  margin-top: 24px; padding: 15px 40px; font-weight: 700;font-family: "Nunito Sans", Sans-serif; letter-spacing: 0.4px;}
+button.btn.btn-primary.btn-submit:hover{ background: #FF9100;}
+.page-header .entry-title{display: block;font-family: "Nunito Sans", Sans-serif;font-weight: 700;}
+@media screen and (max-width:992px){
+.contact_us_wrapper .page-content .form_outer{padding: 26px;margin-top: 35px; width: 100%; }	
+.contact_us_wrapper .page-content  {padding: 15px;}
+}
+@media screen and (max-width:767px){
+    .hfe-nav-menu__layout-horizontal li.menu-item, .hfe-nav-menu__layout-horizontal > li.menu-item{ overflow: hidden;}
+    .pmpro_checkout-field{flex:0 0 100%;}
+	body .pricing_footer {position: static !important;}
+	.contact_us_wrapper .page-content  {padding: 15px;}
+	.contact_us_wrapper .page-content .form_outer{padding: 26px;margin-top: 35px; width: 100%; }
+	.contact_us_wrapper .form-row{flex-direction: column;}
+	.contact_us_wrapper  .col-6{max-width: 100%;flex: 0 0 100%;}
+	.page-header .entry-title{font-size: 25px;}
+}
